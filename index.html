@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/app.js" defer></script>
+</head> 
+<body>
+	
+<!-- 	<div class="header header_blue">
+		<div class="header__wraper wraper">
+			<div class="header__status">
+				<p>В сети</p>
+			</div>
+			<div class="header__profile">
+				<img src="img/profile__photo.jpg" class="profile__img profile__img_small" alt="">
+				<span class="profile__settings">
+					<span class="settings-dot"></span>
+					<span class="settings-dot"></span>
+					<span class="settings-dot"></span>
+				</span>
+				<div class="profile__nav">
+					<a class="nav-link" href="#">Редактировать</a>
+					<a class="nav-link" href="#">Настройки</a>
+					<hr class="nav-link__line">
+					<a class="nav-link" href="#">Выйти</a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<div class="wraper">
+		
+		<div class="content">
+			<div class="left-content">
+
+				<div class="profile__info block_rounded_mt">
+					<h2 class="profile__name">Иванова Ангелина</h2>
+					<p class="profile__description">Држелюбная и романтичная девушка. Я сентиментальна и не приемлю	ложь. Люблю дождь и книги</p>
+					<div class="profile__properties">
+						<div class="profile__prop">День рождения</div>
+						<div class="profile__prop_value">12 апреля, 24 года <img class="zodiac__img"src="img/kozerog.png" alt="zodiac photo"></div>
+						<div class="profile__prop">Город</div>
+						<div class="profile__prop_value">Уфа</div>
+						<div class="profile__prop">Семейное положение</div>
+						<div class="profile__prop_value">Ищу тебя</div>
+
+						<a  class="hide-props">Скрыть подробности</a>
+						<div class="profile__properties profile__properties_hidden">
+							<div class="profile__prop">Образование</div>
+							<div class="profile__prop_value">БГУ 2003</div>
+							<div class="profile__prop">Место работы</div>
+							<div class="profile__prop_value">Как и место встречи, изменить нельзя</div>		
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery block_rounded_mt">
+					<div class="gallery__item">
+						<img src="img/gallery__item1.jpg" alt="gallery">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery__item2.jpg" alt="gallery">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery__item3.jpg" alt="gallery">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery__item4.jpg" alt="gallery">
+					</div>
+				</div>
+
+				<div class="wall block_rounded_mt">
+					<div class="wall__post">
+						<div class="post__creator">
+							<img src="img/creator__photo.png" class="creator__photo_rounded" alt="Фото автора поста">
+							<a href="" class="creator__name">Злотова Марина</a>
+							<p class="creator__activity">Сегодня в 15:12</p>
+						</div>
+						<a class="post__remove">
+							<img src="img/trash__icon.png" alt="">
+						</a>
+						<div class="post__content">
+							<p class="post__text">Текст</p>
+							<img class="post__img" src="img/post__content.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-content">
+				<div class="profile__photo block_rounded_mt">
+					<div class="profle__wraper">
+						<img class="profile__img" src="img/profile__photo.jpg" alt="">
+						<div class="edit__img">
+							<a href="#" class="edit-photo-tool">
+								<img class="edit__icon" src="img/edit__icon.png" alt="edit icon">
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="nav-links block_rounded_mt">
+					<div class="nav-item">
+						<div class="nav-item__img">
+							<img class="icon_blue" src="img/heart__icon_blue.png" alt="">
+						</div>
+						<p class="nav-item__title">Поклоники</p>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item__img">
+							<img class="icon_blue" src="img/srar__icon_blue.png" alt="">
+						</div>
+						<p class="nav-item__title">Интересное</p>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item__img">
+							<img class="icon_blue" src="img/humans__icon_blue.png" alt="">
+						</div>
+						<p class="nav-item__title">Друзья и товарищи</p>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item__img">
+							<img class="icon_blue" src="img/videocamera__icon_blue.png" alt="">
+						</div>
+						<p class="nav-item__title">Видосы</p>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item__img">
+							<img class="icon_blue" src="img/camera__icon_blue.png" alt="">
+						</div>
+						<p class="nav-item__title">Фотки</p>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item__img">
+							<img class="icon_blue" src="img/sound__icon_blue.png" alt="">
+						</div>
+						<p class="nav-item__title">Музыка</p>
+					</div>
+				</div>
+
+				<div class="message-feed block_rounded_mt">
+					<div class="message-feed__title">Сообщения</div>
+					<div class="message-feed__messages">
+						<div class="message">
+							<img src="img/creator__photo.png" alt="" class="message-author__img">
+							<a href="#" class="message-author__name">Злотова Марина</a>
+							<span class="message__time">14:56</span>
+							<p class="message__text">Куда пропала? Идем сегодня в клуб?</p>
+						</div>
+						<div class="message">
+							<img src="img/creator__photo1.png" alt="" class="message-author__img">
+							<a href="#" class="message-author__name">Шостак Антон</a>
+							<span class="message__time">14:56</span>
+							<p class="message__text">Ангелина, мы не знакомы. Но хотелось бы исправить это упущение. Какую литературу вы предпочетаете? Я могу и много много много много много текста</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
