@@ -1,10 +1,20 @@
-define(function() {
+define(function(require) {
 	class Header  {
 		constructor(data) {
 			// super();
 			this.data = data;
-			return () => this.render();
+			this.loadCss();
+			// return () => this.render();
 		}
+
+		loadCss() {
+		    var link = document.createElement("link");
+		    link.type = "text/css";
+		    link.rel = "stylesheet";
+		    link.href = 'css/header.css';
+		    document.getElementsByTagName("head")[0].appendChild(link);
+		}
+
 
 		render() {
 			return `
@@ -31,6 +41,7 @@ define(function() {
 			</div>`;
 		}
 	}
+	return Header;
  }
 
 // const headerProfile = document.querySelector('.header__profile');

@@ -21,7 +21,7 @@ a {
 	position: relative;
 }
 
-.header {
+/*.header {
 	width: 100%;
 }
 
@@ -63,9 +63,9 @@ a {
 	height: 100%;
 	cursor: pointer;
 }
-/*.header__profile:hover {
+.header__profile:hover {
 	background-color: #294777;
-}*/
+}
 .header__profile:hover .profile__settings {
 	width: 20px;
 }
@@ -170,7 +170,7 @@ a {
 	border-radius: 50%;
 	transition: width .3s ease-in-out;
 	transition-delay: .1s;
-}
+} */
 .content {
 	display: -ms-grid;
 	display: grid;
