@@ -11,10 +11,10 @@
 			<div class="header header_blue">
 				<div class="header__wraper wraper">
 					<div class="header__status">
-						<p>${data.activity || "В сети"}</p>
+						<p>${this.data.activity || "В сети"}</p>
 					</div>
 					<div class="header__profile">
-						<img src="${data.photoUrl || "img/profile__photo.jpg" }" class="profile__img profile__img_small" alt="Фото пользователя">
+						<img src="${this.data.photoUrl || "img/profile__photo.jpg" }" class="profile__img profile__img_small" alt="Фото пользователя">
 						<span class="profile__settings">
 							<span class="settings-dot"></span>
 							<span class="settings-dot"></span>
