@@ -34,7 +34,7 @@
 // });
 
 const header = new Header(data = {
-	status: 'Не в сети',
+	activity: 'Не в сети',
 	photoUrl: 'img/profile__photo.jpg'
 });
 document.body.insertAdjacentHTML('afterBegin',header());
@@ -64,39 +64,3 @@ function toggleNav() {
 function closeNav() {
 	navClasses.remove('visible');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// header = new Header(data = {
-// 	status: 'В сети',
-// 	editText: 'Редактировать',
-// 	photoUrl: 'img/profile__photo.jpg',
-// 	photoAlt: 'Фото пользователя'
-
-// })
